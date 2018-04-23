@@ -1,0 +1,24 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<metadata name="ds_XML" path="/shared/examples/ds_XML" type="DATA_SOURCE" subtype="XML_FILE" changeToken="0">
+  <annotation/>
+  <security>
+    <owner user="admin" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ EXECUTE SELECT"/>
+  </security>
+  <attribute name="autoAddChildren" type="BOOLEAN">true</attribute>
+  <attribute name="charset" type="STRING">&lt;auto detect&gt;</attribute>
+  <attribute name="creationDate" type="LONG">0</attribute>
+  <attribute name="creatorUserDomain" type="STRING"/>
+  <attribute name="creatorUserName" type="STRING"/>
+  <attribute name="driverName" type="STRING">File-XML</attribute>
+  <attribute name="filters" type="STRING"/>
+  <attribute name="local" type="BOOLEAN">false</attribute>
+  <attribute name="name" type="STRING">ds_XML</attribute>
+  <attribute name="noNamespaceSchemaLocation" type="STRING"/>
+  <attribute name="root" type="STRING"/>
+  <attribute name="schemaLocation" type="STRING"/>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+  <attribute name="type" type="STRING">XmlFile</attribute>
+  <attribute name="url" type="STRING">file:///D:/Program%20Files/Cisco%20Systems/CIS%207.0/docs/examples/productCatalog.xml</attribute>
+  <attribute name="userDeletedSet" type="SET"></attribute>
+</metadata>

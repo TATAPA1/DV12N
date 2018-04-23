@@ -1,0 +1,274 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<metadata name="Examples Data Model" path="/shared/examples/Examples Data Model" type="MODEL" subtype="NONE" changeToken="0">
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/examples/CompositeView" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ViewOrder" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ViewSales" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ViewSupplier" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_inventory" type="DATA_SOURCE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_inventory/tutorial/categories" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_inventory/tutorial/employees" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_inventory/tutorial/inventorytransactions" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_inventory/tutorial/products" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_inventory/tutorial/purchaseorders" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_inventory/tutorial/suppliers" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_orders" type="DATA_SOURCE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_orders/tutorial/cache_status" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_orders/tutorial/cache_tracking" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_orders/tutorial/customers" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_orders/tutorial/employees" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_orders/tutorial/orderdetails" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_orders/tutorial/orders" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_orders/tutorial/orders_cache" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <dependency target="/shared/examples/ds_orders/tutorial/shippingmethods" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <attribute name="creationDate" type="LONG">1409093041876</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="crossModelBlob" type="BYTE_ARRAY">rO0ABXcBAx+LCAAAAAAAAAClVt1rHFUUPzO7G7LZJE3TtGkNSpQ21aCzoIiFFN3dSbZNXWPMhkhJ
+QSc7d3fHTnamM3czuwV1q6Ciogj2zY8oRrAWfeiLVMGkIETQf0BBirQiaDFvIn3Qc+/M7OxH1wQd
+uHu/zvnd3+/ce05y8QZEnKgoCAAQiYkUHs4ZyxI207A1SmxHKmvSsqESnVjSikYcySK6QjWjZBc1
+U5pXlnQyg9tzRNG1s8RypoQwQgliLDF7FdiXOHJynfezCXd+/6UaNHxfb3mD1AsAyfPv8DGF6AIe
+9rilImRYUAXBtqDvGWVFkRSHSmmjRL/54MFfvvtpwQ5B1zQcyONKllgaZ6FOKlRZIJaNNNMQNQ0N
+N3F9GsI27yI2reokA0P5OXKmTGxK1CSllrZURskU9mbYSfEy1fT4ccUuUqZyIgPhkrJMKAy627pS
+KsSz6FUqTFRMJjrpKuxlY+S7h/NlKFIdZc+Xuw7deeLaFyEQ09CjG4qaVnLUsKYhSosWsYuGrlbM
+R1ygbqcbf2PYQhQO2uWSxGRKik91RdGRvKSSvFYi6lOnSRVP3c1PZeSk6RIlBWIN/rz60Z/nXj4i
+goDSuVPFgoHAbqa8vESsly6evz329tXXRACUk4DnEWykHnJ+8jyp0HqgTlfefb3v1740s7cgzi0p
+Gkh1C1UuKhbKI9Y0NgVlHqzvnbuDjn1/bPgUkvICewaeg3DFpNDlEK1QpHj8roBjGmNFf7jx7Yc/
+Ht36HZ3SvhLm1sPiZbNRL7rnlWVNr+JgEp+DUeAWQxWE66+rkQ3dsIS14RcH3nygLEIkzbx0s6j4
+AcqAmMOXMOJeNbrEc8wlzh2zppIjE4sQzVuFJW5OQVxMLyIIn7EDh/mTgL/xM93PCYXFsOlEITHg
+PnhOeC+3ev/TAbRoWKjVatxnv3wcswJTZPLeGsiPcT+BZWuD7aWP32KmQ+5pAONH/dyKicwKGpLy
+CWhJStgmKWttSZlVdKwLPCkZeoT97L+lQLZzgP3c1iAkuQogjwRC2P5IQP7wWmfyM4lm8tn1bci/
+10i+l5Mvm6au+UXlv/CXzyLwhY78x8Od+Z9Yb+b/ZGIb/pcb+ffJflVmQv6fgH+5gLG/AgEU7qq6
+Vb+IMVOsXLEqHbOMstlU8tNhX6Hv6StKaM3zVoUC51RX2E3LWCMwaVFcHks+YyZCa2Flq13tFZIt
+d/PNKCtebNDPpwMJLxKDbiHwykGQP9haU9T/AqtnwbyMFmw+5gUzhU3+DWB9tTWYuxMnPeHzHpDp
+CNiexhXJ2+nQb/fhGYJ7UYf+8JZ6vD4cE7BieRc2a+jVDP5ZmFILwU31C10MYnKqxtOwrQA5EaYB
+UWJ1FIs6UfbPAWyYrrp7nFEhtdlISICvXr12k41DbB7jr/Kw08UP4z53e8Cuf1S44vl3wnv0DVjz
+8cDH88nLGPXxW+OmWnA3Rl3eAW6oXhvDPu4+jism0Vaew+eIfXKzM2+G6eOzeWK1MQ7XX2FjsRHf
+591fg1QH3FbebJzcDHBLG59s+fEQdxDf1vvieM1xqJep1jiwNfmUu8ceyU7u70rbe7j+UFscPHw5
+DzwOvO/dOX4j/9LGhc/ccXucU1tumdtJXDjuaICb2bjvZqf7kz9HvqM7wd3n4q428U3BP1Qp8fhr
+CwAA</attribute>
+  <attribute name="crossModelProperties" type="STRING_ARRAY">
+    <item>modeler.view.relationship.action.toggleNavigator</item>
+    <item>true</item>
+    <item>modeler.view.relationship.currentLayoutStyle</item>
+    <item>ORTHOGONAL</item>
+  </attribute>
+  <attribute name="descendentResourceRefs" type="SET">
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAV3BAAAAAV0AAZzaGFyZWR0AAhleGFt
+cGxlc3QADGRzX2ludmVudG9yeXQACHR1dG9yaWFsdAAJc3VwcGxpZXJzeA==</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAV3BAAAAAV0AAZzaGFyZWR0AAhleGFt
+cGxlc3QADGRzX2ludmVudG9yeXQACHR1dG9yaWFsdAAOcHVyY2hhc2VvcmRlcnN4</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAV3BAAAAAV0AAZzaGFyZWR0AAhleGFt
+cGxlc3QADGRzX2ludmVudG9yeXQACHR1dG9yaWFsdAAKY2F0ZWdvcmllc3g=</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAV3BAAAAAV0AAZzaGFyZWR0AAhleGFt
+cGxlc3QACWRzX29yZGVyc3QACHR1dG9yaWFsdAAOY2FjaGVfdHJhY2tpbmd4</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAV3BAAAAAV0AAZzaGFyZWR0AAhleGFt
+cGxlc3QACWRzX29yZGVyc3QACHR1dG9yaWFsdAAMb3JkZXJzX2NhY2hleA==</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAV3BAAAAAV0AAZzaGFyZWR0AAhleGFt
+cGxlc3QACWRzX29yZGVyc3QACHR1dG9yaWFsdAAPc2hpcHBpbmdtZXRob2RzeA==</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAV3BAAAAAV0AAZzaGFyZWR0AAhleGFt
+cGxlc3QADGRzX2ludmVudG9yeXQACHR1dG9yaWFsdAAJZW1wbG95ZWVzeA==</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAV3BAAAAAV0AAZzaGFyZWR0AAhleGFt
+cGxlc3QACWRzX29yZGVyc3QACHR1dG9yaWFsdAAMY2FjaGVfc3RhdHVzeA==</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAV3BAAAAAV0AAZzaGFyZWR0AAhleGFt
+cGxlc3QACWRzX29yZGVyc3QACHR1dG9yaWFsdAAJY3VzdG9tZXJzeA==</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAV3BAAAAAV0AAZzaGFyZWR0AAhleGFt
+cGxlc3QACWRzX29yZGVyc3QACHR1dG9yaWFsdAAGb3JkZXJzeA==</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAV3BAAAAAV0AAZzaGFyZWR0AAhleGFt
+cGxlc3QADGRzX2ludmVudG9yeXQACHR1dG9yaWFsdAAIcHJvZHVjdHN4</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAV3BAAAAAV0AAZzaGFyZWR0AAhleGFt
+cGxlc3QADGRzX2ludmVudG9yeXQACHR1dG9yaWFsdAAVaW52ZW50b3J5dHJhbnNhY3Rpb25zeA==</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAV3BAAAAAV0AAZzaGFyZWR0AAhleGFt
+cGxlc3QACWRzX29yZGVyc3QACHR1dG9yaWFsdAAJZW1wbG95ZWVzeA==</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAV3BAAAAAV0AAZzaGFyZWR0AAhleGFt
+cGxlc3QACWRzX29yZGVyc3QACHR1dG9yaWFsdAAMb3JkZXJkZXRhaWxzeA==</item>
+  </attribute>
+  <attribute name="lastModifiedDate" type="LONG">1410395026079</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="memberResourceRefs" type="SET">
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAN3BAAAAAN0AAZzaGFyZWR0AAhleGFt
+cGxlc3QACVZpZXdPcmRlcng=</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAN3BAAAAAN0AAZzaGFyZWR0AAhleGFt
+cGxlc3QADUNvbXBvc2l0ZVZpZXd4</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAN3BAAAAAN0AAZzaGFyZWR0AAhleGFt
+cGxlc3QADFZpZXdTdXBwbGllcng=</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAhzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAN3BAAAAAN0AAZzaGFyZWR0AAhleGFt
+cGxlc3QACWRzX29yZGVyc3g=</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAhzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAN3BAAAAAN0AAZzaGFyZWR0AAhleGFt
+cGxlc3QADGRzX2ludmVudG9yeXg=</item>
+    <item type="OBJECT">rO0ABXNyACpjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUGF0aFR5cGUAABnTDJQk
+yQIAAlMABHR5cGVMAARwYXRodAAoTGNvbS9jb21wb3NpdGVzdy9jb21tb24vcmVwb3NpdG9yeS9Q
+YXRoO3hwAAJzcgAmY29tLmNvbXBvc2l0ZXN3LmNvbW1vbi5yZXBvc2l0b3J5LlBhdGhACAIJ5hQ4
+OAIAAloACGFic29sdXRlTAAFcGFydHN0ABBMamF2YS91dGlsL0xpc3Q7eHABc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAN3BAAAAAN0AAZzaGFyZWR0AAhleGFt
+cGxlc3QACVZpZXdTYWxlc3g=</item>
+  </attribute>
+  <attribute name="modelBlob" type="BYTE_ARRAY">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
+/Qu38xr+cRcAAA==</attribute>
+  <attribute name="modelProperties" type="STRING_ARRAY">
+    <item>modeler.view.relationship.action.hierarchicalLayout</item>
+    <item>false</item>
+    <item>modeler.view.relationship.action.toggleNavigator</item>
+    <item>true</item>
+    <item>modeler.view.relationship.currentLayoutStyle</item>
+    <item>ORTHOGONAL</item>
+  </attribute>
+  <attribute name="relatedResourceRefs" type="SET"></attribute>
+  <attribute name="relationshipCriteria" type="OBJECT">rO0ABXNyADZjb20uY29tcG9zaXRlc3cuY29tbW9uLnJlcG9zaXRvcnkuUmVsYXRpb25zaGlwQ3Jp
+dGVyaWEAAAAV30W50QIAB0kACG1heENvdW50RAAIbWF4U2NvcmVEAAhtaW5TY29yZUkADHNjYW5J
+ZEZpbHRlclsADWNhcmRpbmFsaXRpZXN0AAJbSVsACHN0YXR1c2VzcQB+AAFbAAV0eXBlc3EAfgAB
+eHB/////f+////////8/8AAAAAAAAP////91cgACW0lNumAmduqypQIAAHhwAAAABQAAAAQAAAAD
+AAAAAgAAAAEAAAAAdXEAfgADAAAABAAAAAEAAAACAAAAAAAAAANw</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1409093041876</attribute>
+  <attribute name="tableModelProperties" type="STRING_ARRAY"></attribute>
+</metadata>
