@@ -1,0 +1,160 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<metadata name="testview" path="/users/composite/adm_tatapa1/examples/testview/testview/testview" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ProductID" nullable="true">
+      <datatype type="DECIMAL" maxDigits="32" maxFractionalDigits="0"/>
+      <security>
+        <owner user="adm_kasirra1" domain="composite"/>
+      </security>
+    </column>
+    <column name="ProductName" nullable="true">
+      <datatype type="STRING" maxLength="32768"/>
+      <security>
+        <owner user="adm_kasirra1" domain="composite"/>
+      </security>
+    </column>
+    <column name="CategoryID" nullable="true">
+      <datatype type="DECIMAL" maxDigits="32" maxFractionalDigits="0"/>
+      <security>
+        <owner user="adm_kasirra1" domain="composite"/>
+      </security>
+    </column>
+    <column name="CategoryName" nullable="true">
+      <datatype type="STRING" maxLength="32768"/>
+      <security>
+        <owner user="adm_kasirra1" domain="composite"/>
+      </security>
+    </column>
+    <column name="ProductDescription" nullable="true">
+      <datatype type="STRING" maxLength="32768"/>
+      <security>
+        <owner user="adm_kasirra1" domain="composite"/>
+      </security>
+    </column>
+    <column name="SerialNumber" nullable="true">
+      <datatype type="STRING" maxLength="32768"/>
+      <security>
+        <owner user="adm_kasirra1" domain="composite"/>
+      </security>
+    </column>
+    <column name="UnitPrice" nullable="true">
+      <datatype type="DECIMAL" maxDigits="32" maxFractionalDigits="6"/>
+      <security>
+        <owner user="adm_kasirra1" domain="composite"/>
+      </security>
+    </column>
+    <column name="ReorderLevel" nullable="true">
+      <datatype type="DECIMAL" maxDigits="32" maxFractionalDigits="0"/>
+      <security>
+        <owner user="adm_kasirra1" domain="composite"/>
+      </security>
+    </column>
+    <column name="LeadTime" nullable="true">
+      <datatype type="STRING" maxLength="32768"/>
+      <security>
+        <owner user="adm_kasirra1" domain="composite"/>
+      </security>
+    </column>
+    <column name="Status" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="adm_kasirra1" domain="composite"/>
+      </security>
+    </column>
+    <column name="Discount" nullable="true">
+      <datatype type="DECIMAL" maxDigits="12" minFractionalDigits="2" maxFractionalDigits="2"/>
+      <security>
+        <owner user="adm_kasirra1" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="adm_kasirra1" domain="composite"/>
+    <privilege user="adm_kasirra1" domain="composite" privileges="READ WRITE SELECT UPDATE INSERT DELETE"/>
+    <privilege user="adm_tatapa1" domain="composite" privileges="READ WRITE SELECT UPDATE INSERT DELETE"/>
+  </security>
+  <dependency target="/users/composite/adm_tatapa1/examples/ViewOrder" type="TABLE">
+    <datatype type="TABLE" refId="1">
+      <element name="OrderID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ProductID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="Discount">
+        <datatype type="DECIMAL" maxDigits="12" minFractionalDigits="2" maxFractionalDigits="2"/>
+      </element>
+      <element name="OrderDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="CompanyName">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="CustomerContactFirstName">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="CustomerContactLastName">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="CustomerContactPhone">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/users/composite/adm_tatapa1/examples/ViewSales" type="TABLE">
+    <datatype type="TABLE" refId="1">
+      <element name="ProductID">
+        <datatype type="DECIMAL" maxDigits="32" maxFractionalDigits="0"/>
+      </element>
+      <element name="ProductName">
+        <datatype type="STRING" maxLength="32768"/>
+      </element>
+      <element name="CategoryID">
+        <datatype type="DECIMAL" maxDigits="32" maxFractionalDigits="0"/>
+      </element>
+      <element name="CategoryName">
+        <datatype type="STRING" maxLength="32768"/>
+      </element>
+      <element name="ProductDescription">
+        <datatype type="STRING" maxLength="32768"/>
+      </element>
+      <element name="SerialNumber">
+        <datatype type="STRING" maxLength="32768"/>
+      </element>
+      <element name="UnitPrice">
+        <datatype type="DECIMAL" maxDigits="32" maxFractionalDigits="6"/>
+      </element>
+      <element name="ReorderLevel">
+        <datatype type="DECIMAL" maxDigits="32" maxFractionalDigits="0"/>
+      </element>
+      <element name="LeadTime">
+        <datatype type="STRING" maxLength="32768"/>
+      </element>
+      <element name="Status">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="Discount">
+        <datatype type="DECIMAL" maxDigits="12" minFractionalDigits="2" maxFractionalDigits="2"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    ViewSales.*
+FROM      
+    /users/composite/adm_tatapa1/examples/ViewOrder ViewOrder INNER JOIN 
+        /users/composite/adm_tatapa1/examples/ViewSales ViewSales
+    ON ViewOrder.ProductID = ViewSales.ProductID</attribute>
+  <attribute name="creationDate" type="LONG">1500265249224</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">1168</attribute>
+  <attribute name="creatorUserName" type="STRING">adm_kasirra1</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1500265499694</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">1168</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">adm_kasirra1</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1500265249224</attribute>
+</metadata>

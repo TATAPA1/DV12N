@@ -1,0 +1,34 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<metadata name="DV12N_XML_HTTP" path="/users/composite/adm_tatapa1/examples/DV12N_XML_HTTP" type="DATA_SOURCE" subtype="-3915" changeToken="0">
+  <annotation/>
+  <security>
+    <owner user="adm_kasirra1" domain="composite"/>
+    <privilege user="adm_kasirra1" domain="composite" privileges="READ WRITE"/>
+    <privilege user="adm_tatapa1" domain="composite" privileges="READ WRITE"/>
+  </security>
+  <attribute name="accessToken" type="STRING"/>
+  <attribute name="cacheStatusTable" type="STRING"/>
+  <attribute name="cacheTrackingTable" type="STRING"/>
+  <attribute name="creationDate" type="LONG">1480071790036</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">1168</attribute>
+  <attribute name="creatorUserName" type="STRING">adm_kasirra1</attribute>
+  <attribute name="driverName" type="STRING">XML/HTTP</attribute>
+  <attribute name="inputDocument" type="NULL"/>
+  <attribute name="inputNone" type="BOOLEAN">true</attribute>
+  <attribute name="inputQueryString" type="BOOLEAN">false</attribute>
+  <attribute name="isEnabled" type="BOOLEAN">true</attribute>
+  <attribute name="isPassThrough" type="STRING">Disabled</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1480072238860</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">1168</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">adm_kasirra1</attribute>
+  <attribute name="method" type="STRING">GET</attribute>
+  <attribute name="name" type="STRING">DV12N_XML_HTTP</attribute>
+  <attribute name="outputDocument" type="STRING"/>
+  <attribute name="persistPassword" type="BOOLEAN">true</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1480071790036</attribute>
+  <attribute name="retrieveToken" type="STRING">true</attribute>
+  <attribute name="selectionState" type="INTEGER">1</attribute>
+  <attribute name="type" type="STRING">XmlHttp</attribute>
+</metadata>
