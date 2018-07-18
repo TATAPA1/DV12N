@@ -1,0 +1,32 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<metadata name="Shared_Drive" path="/users/composite/adm_tatapa1/examples/Shared_Drive" type="DATA_SOURCE" subtype="-3919" changeToken="0">
+  <security>
+    <owner user="adm_kasirra1" domain="composite"/>
+    <privilege user="adm_tatapa1" domain="composite" privileges="READ WRITE"/>
+    <privilege user="adm_kasirra1" domain="composite" privileges="READ WRITE"/>
+  </security>
+  <attribute name="blankAsNull" type="BOOLEAN">true</attribute>
+  <attribute name="blankColumnType" type="STRING">Varchar</attribute>
+  <attribute name="charset" type="STRING">iso-8859-1</attribute>
+  <attribute name="creationDate" type="LONG">1500033225472</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">1168</attribute>
+  <attribute name="creatorUserName" type="STRING">adm_kasirra1</attribute>
+  <attribute name="dataRange" type="STRING">A1</attribute>
+  <attribute name="dataWysiwyg" type="BOOLEAN">true</attribute>
+  <attribute name="driverName" type="STRING">Microsoft Excel (non-ODBC)</attribute>
+  <attribute name="filters" type="STRING">*.xls,*.xlsx</attribute>
+  <attribute name="firstRowCategory" type="BOOLEAN">true</attribute>
+  <attribute name="hasHeaders" type="BOOLEAN">true</attribute>
+  <attribute name="ignoreInvalidateDataFetch" type="BOOLEAN">true</attribute>
+  <attribute name="isPassThrough" type="STRING">Disabled</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1500033225472</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">1168</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">adm_kasirra1</attribute>
+  <attribute name="local" type="BOOLEAN">false</attribute>
+  <attribute name="name" type="STRING">Shared_Drive</attribute>
+  <attribute name="persistPassword" type="BOOLEAN">true</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1500033225472</attribute>
+  <attribute name="type" type="STRING">MsExcel(POI)</attribute>
+</metadata>
