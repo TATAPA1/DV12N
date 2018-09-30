@@ -1,0 +1,333 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<metadata name="CompositeView" path="/users/composite/adm_tatapa1/examples/CompositeView" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="NONE">
+  <columns>
+    <column name="OrderID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ProductID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Discount" nullable="true">
+      <datatype type="DECIMAL" maxDigits="12" minFractionalDigits="2" maxFractionalDigits="2"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="OrderDate" nullable="true">
+      <datatype type="DATE"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CompanyName" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CustomerContactFirstName" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CustomerContactLastName" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CustomerContactPhone" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ProductName" nullable="true">
+      <datatype namespace="http://www.w3.org/2001/XMLSchema" superTypeName="anySimpleType" superTypeNamespace="http://www.w3.org/2001/XMLSchema" type="STRING" maxLength="32768"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TransactionID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DateRequired" nullable="true">
+      <datatype type="DATE"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DatePromised" nullable="true">
+      <datatype type="DATE"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ShipDate" nullable="true">
+      <datatype type="DATE"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SupplierID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SupplierName" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SupplierContactName" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SupplierPhoneNumber" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+    <privilege user="adm_tatapa1" domain="composite" privileges="READ WRITE SELECT UPDATE INSERT DELETE"/>
+  </security>
+  <dependency target="/users/composite/adm_tatapa1/examples/ViewOrder" type="TABLE">
+    <datatype type="TABLE" refId="1">
+      <element name="OrderID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ProductID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="Discount">
+        <datatype type="DECIMAL" maxDigits="12" minFractionalDigits="2" maxFractionalDigits="2"/>
+      </element>
+      <element name="OrderDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="CompanyName">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="CustomerContactFirstName">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="CustomerContactLastName">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="CustomerContactPhone">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/users/composite/adm_tatapa1/examples/ViewSales" type="TABLE">
+    <datatype type="TABLE" refId="1">
+      <element name="ProductID">
+        <datatype type="DECIMAL" maxDigits="32" maxFractionalDigits="0"/>
+      </element>
+      <element name="ProductName">
+        <datatype type="STRING" maxLength="32768"/>
+      </element>
+      <element name="CategoryID">
+        <datatype type="DECIMAL" maxDigits="32" maxFractionalDigits="0"/>
+      </element>
+      <element name="CategoryName">
+        <datatype type="STRING" maxLength="32768"/>
+      </element>
+      <element name="ProductDescription">
+        <datatype type="STRING" maxLength="32768"/>
+      </element>
+      <element name="SerialNumber">
+        <datatype type="STRING" maxLength="32768"/>
+      </element>
+      <element name="UnitPrice">
+        <datatype type="DECIMAL" maxDigits="32" maxFractionalDigits="6"/>
+      </element>
+      <element name="ReorderLevel">
+        <datatype type="DECIMAL" maxDigits="32" maxFractionalDigits="0"/>
+      </element>
+      <element name="LeadTime">
+        <datatype type="STRING" maxLength="32768"/>
+      </element>
+      <element name="Status">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="Discount">
+        <datatype type="DECIMAL" maxDigits="12" minFractionalDigits="2" maxFractionalDigits="2"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/users/composite/adm_tatapa1/examples/ViewSupplier" type="TABLE">
+    <datatype type="TABLE" refId="1">
+      <element name="ProductID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TransactionID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="OrderDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DateRequired">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DatePromised">
+        <datatype type="DATE"/>
+      </element>
+      <element name="ShipDate">
+        <datatype type="DATE"/>
+      </element>
+      <element name="SupplierID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SupplierName">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="SupplierContactName">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="SupplierPhoneNumber">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    ViewOrder.*, 
+    ViewSales.ProductName, 
+    ViewSupplier.TransactionID, 
+    ViewSupplier.DateRequired, 
+    ViewSupplier.DatePromised, 
+    ViewSupplier.ShipDate, 
+    ViewSupplier.SupplierID, 
+    ViewSupplier.SupplierName, 
+    ViewSupplier.SupplierContactName, 
+    ViewSupplier.SupplierPhoneNumber
+FROM      
+    /users/composite/adm_tatapa1/examples/ViewSales ViewSales INNER JOIN 
+        /users/composite/adm_tatapa1/examples/ViewOrder ViewOrder
+    ON ViewSales.ProductID = ViewOrder.ProductID INNER JOIN 
+        /users/composite/adm_tatapa1/examples/ViewSupplier ViewSupplier
+    ON ViewOrder.ProductID = ViewSupplier.ProductID</attribute>
+  <attribute name="creationDate" type="LONG">0</attribute>
+  <attribute name="creatorUserDomain" type="STRING"/>
+  <attribute name="creatorUserName" type="STRING"/>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1401221465456</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="BYTE_ARRAY">EIEJBAAAAAUQUQYBAAkAVgBpAGUAdwBTAGEAbABlAHMGAgAJAFYAaQBlAHcAUwBhAGwAZQBzAwv/
+////Awr/////Awz/////CxEABQAFAHUAcwBlAHIAcwAJAGMAbwBtAHAAbwBzAGkAdABlAAsAYQBk
+AG0AXwB0AGEAdABhAHAAYQAxAAgAZQB4AGEAbQBwAGwAZQBzAAkAVgBpAGUAdwBTAGEAbABlAHP/
+/xBRBgEADABWAGkAZQB3AFMAdQBwAHAAbABpAGUAcgYCAAwAVgBpAGUAdwBTAHUAcABwAGwAaQBl
+AHIDC/////8DCv////8DDP////8LEQAFAAUAdQBzAGUAcgBzAAkAYwBvAG0AcABvAHMAaQB0AGUA
+CwBhAGQAbQBfAHQAYQB0AGEAcABhADEACABlAHgAYQBtAHAAbABlAHMADABWAGkAZQB3AFMAdQBw
+AHAAbABpAGUAcv//EFEGAQAJAFYAaQBlAHcATwByAGQAZQByBgIACQBWAGkAZQB3AE8AcgBkAGUA
+cgML/////wMK/////wMM/////wsRAAUABQB1AHMAZQByAHMACQBjAG8AbQBwAG8AcwBpAHQAZQAL
+AGEAZABtAF8AdABhAHQAYQBwAGEAMQAIAGUAeABhAG0AcABsAGUAcwAJAFYAaQBlAHcATwByAGQA
+ZQBy//8QUwYJAAUASQBOAE4ARQBSAw0AAAAAAw4AAAACCA8QYgYHAAEAPQEFAAgDEEEGAQAJAFAA
+cgBvAGQAdQBjAHQASQBEBgIAAAYD//8GBP//Awr/////AwsAAAAA//8IBBBBBgEACQBQAHIAbwBk
+AHUAYwB0AEkARAYCAAAGA///BgT//wMK/////wMLAAAAAv///////xBTBgkABQBJAE4ATgBFAFID
+DQAAAAMDDgAAAAEIDxBiBgcAAQA9AQUACAMQQQYBAAkAUAByAG8AZAB1AGMAdABJAEQGAgAABgP/
+/wYE//8DCv////8DCwAAAAL//wgEEEEGAQAJAFAAcgBvAGQAdQBjAHQASQBEBgIAAAYD//8GBP//
+Awr/////AwsAAAAB////////AwUAAAACCAIQMQYB//8BAgEBBgABAwABBAABBQADBwAAAAAHCQAA
+AAEAAAAECQoAAAAKEEEGAQABACoGAgAABgP//wYE//8DCv////8DCwAAAAL//xBBBgEACwBQAHIA
+bwBkAHUAYwB0AE4AYQBtAGUGAgAABgP//wYE//8DCv////8IDBAbBgIABwBWAEEAUgBDAEgAQQBS
+BiQAIABoAHQAdABwADoALwAvAHcAdwB3AC4AdwAzAC4AbwByAGcALwAyADAAMAAxAC8AWABNAEwA
+UwBjAGgAZQBtAGEGJQANAGEAbgB5AFMAaQBtAHAAbABlAFQAeQBwAGUGKAAgAGgAdAB0AHAAOgAv
+AC8AdwB3AHcALgB3ADMALgBvAHIAZwAvADIAMAAwADEALwBYAE0ATABTAGMAaABlAG0AYQMSAAAA
+AQQEAAAAAAAAgAABEwH//wMLAAAAAP//EEEGAQANAFQAcgBhAG4AcwBhAGMAdABpAG8AbgBJAEQG
+AgAABgP//wYE//8DCv////8IDBAvAxL///wY//8DCwAAAAH//xBBBgEADABEAGEAdABlAFIAZQBx
+AHUAaQByAGUAZAYCAAAGA///BgT//wMK/////wgMEC8DEv///CL//wMLAAAAAf//EEEGAQAMAEQA
+YQB0AGUAUAByAG8AbQBpAHMAZQBkBgIAAAYD//8GBP//Awr/////CAwQLwMS///8Iv//AwsAAAAB
+//8QQQYBAAgAUwBoAGkAcABEAGEAdABlBgIAAAYD//8GBP//Awr/////CAwQLwMS///8Iv//AwsA
+AAAB//8QQQYBAAoAUwB1AHAAcABsAGkAZQByAEkARAYCAAAGA///BgT//wMK/////wgMEC8DEv//
+/Bj//wMLAAAAAf//EEEGAQAMAFMAdQBwAHAAbABpAGUAcgBOAGEAbQBlBgIAAAYD//8GBP//Awr/
+////CAwQGwYCAAcAVgBBAFIAQwBIAEEAUgYDAAsAdgBhAHIAYwBoAGEAcgAoADUAMAApAxIAAAAB
+BAQAAAAAAAAAMgETAf//AwsAAAAB//8QQQYBABMAUwB1AHAAcABsAGkAZQByAEMAbwBuAHQAYQBj
+AHQATgBhAG0AZQYCAAAGA///BgT//wMK/////wgMEBsGAgAHAFYAQQBSAEMASABBAFIGAwALAHYA
+YQByAGMAaABhAHIAKAA1ADAAKQMSAAAAAQQEAAAAAAAAADIBEwH//wMLAAAAAf//EEEGAQATAFMA
+dQBwAHAAbABpAGUAcgBQAGgAbwBuAGUATgB1AG0AYgBlAHIGAgAABgP//wYE//8DCv////8IDBAb
+BgIABwBWAEEAUgBDAEgAQQBSBgMACwB2AGEAcgBjAGgAYQByACgAMwAwACkDEgAAAAEEBAAAAAAA
+AAAeARMB//8DCwAAAAH/////CQYAAAAFEIIDCgAAABcDCwAAAAgDDAAAAMgDDQAAAMj//xCCAwoA
+AAJqAwsAAAAcAwwAAADIAw0AAADI//8QggMKAAABOAMLAAAAXQMMAAAAyAMNAAAAqP//EIIDCv//
+//8DC/////8DDP////8DDf///////xCCAwr/////Awv/////Awz/////Aw3///////8IAxBxAwEA
+AAALAwIAAAAyCQMAAAImEHQDBgAAAAD//xByBgT/////EHMDBQAAAAL//xB1AQcB//8QeAYL////
+/xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAAf//EHIGBP////8QcwMF
+AAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0
+AwYAAAAC//8QcgYE/////xBzAwUAAAAB//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP//
+//8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr/////
+//8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAA///EHIGBP////8QcwMFAAAAAf//EHUB
+BwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAE//8Q
+cgYE/////xBzAwUAAAAB//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb/
+/xB2//8Qdv//EHQDBgAAAAX//xByBgT/////EHMDBQAAAAH//xB1AQcB//8QeAYL/////xB3Awr/
+//////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAABv//EHIGBP////8QcwMFAAAAAf//
+EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAH
+//8QcgYE/////xBzAwUAAAAB//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//
+EHb//xB2//8Qdv//EHQDBgAAAAj//xByBgT/////EHMDBQAAAAH//xB1AQcB//8QeAYL/////xB3
+Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAACf//EHIGBP////8QcwMFAAAA
+Af//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8Q
+cgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Q
+dv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Q
+dv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/
+////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////
+////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL////
+/xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD/
+/xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz
+//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xBy
+BgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2
+//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2
+//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP//
+//8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr/////
+//8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////
+EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//
+EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP/
+/xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIG
+BP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb/
+/xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb/
+/xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM////
+/xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv//////
+/xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8Q
+dwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8Q
+eAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///
+EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE
+/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//
+EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//
+EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////
+EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////
+EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3
+Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4
+Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8Q
+dQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/
+////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8Q
+dP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Q
+dv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Q
+dv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8Q
+eQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcD
+Cv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgG
+C/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1
+AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP//
+//8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0
+//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2
+//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2
+//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5
+Bgz/////EHb//xB2//8Qdv//EHb///////8=</attribute>
+</metadata>
