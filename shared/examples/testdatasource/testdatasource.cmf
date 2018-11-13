@@ -1,0 +1,43 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<metadata name="testdatasource" path="/shared/examples/testdatasource" type="DATA_SOURCE" subtype="-3915" changeToken="0">
+  <security>
+    <owner user="adm_tatapa1" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ EXECUTE SELECT"/>
+    <privilege group="DV12N_BIZINFO_Developers" domain="ad" privileges="READ WRITE EXECUTE SELECT UPDATE INSERT DELETE GRANT"/>
+    <privilege user="adm_tatapa1" domain="composite" privileges="NONE"/>
+    <privilege user="dsouzjo3" domain="ad" privileges="READ WRITE SELECT UPDATE INSERT DELETE"/>
+  </security>
+  <attribute name="OAuthConfig" type="NULL"/>
+  <attribute name="accessToken" type="STRING"/>
+  <attribute name="authentication" type="STRING">BASIC</attribute>
+  <attribute name="cacheStatusTable" type="STRING"/>
+  <attribute name="cacheTrackingTable" type="STRING"/>
+  <attribute name="creationDate" type="LONG">1486587925755</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">803</attribute>
+  <attribute name="creatorUserName" type="STRING">adm_tatapa1</attribute>
+  <attribute name="domain" type="STRING"/>
+  <attribute name="driverName" type="STRING">XML/HTTP</attribute>
+  <attribute name="environmentPassThrough" type="STRING"/>
+  <attribute name="inputNone" type="BOOLEAN">true</attribute>
+  <attribute name="inputQueryString" type="BOOLEAN">false</attribute>
+  <attribute name="isPassThrough" type="STRING">Disabled</attribute>
+  <attribute name="keystore" type="MAP"></attribute>
+  <attribute name="lastModifiedDate" type="LONG">1486588113982</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">803</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">adm_tatapa1</attribute>
+  <attribute name="login" type="STRING">adm_tatapa1</attribute>
+  <attribute name="method" type="STRING">GET</attribute>
+  <attribute name="name" type="STRING">testdatasource</attribute>
+  <attribute name="outputDocument" type="STRING"/>
+  <attribute name="password" type="STRING">9C5AE6330C45832D50021547F754C775</attribute>
+  <attribute name="persistPassword" type="BOOLEAN">true</attribute>
+  <attribute name="propertyPassThrough" type="STRING"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1486587925755</attribute>
+  <attribute name="retrieveToken" type="STRING">true</attribute>
+  <attribute name="selectionState" type="INTEGER">1</attribute>
+  <attribute name="spn" type="STRING"/>
+  <attribute name="type" type="STRING">XmlHttp</attribute>
+  <attribute name="url" type="STRING">https://dv12n-eudev.novartis.intra:9402/xml/testwebservice/testview</attribute>
+</metadata>

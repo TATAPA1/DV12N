@@ -1,0 +1,410 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<metadata name="productCatalog_xform" path="/shared/examples/productCatalog_xform" type="PROCEDURE" subtype="TRANSFORM_PROCEDURE" changeToken="0">
+  <parameters>
+    <parameter name="outputs" direction="OUT" nullable="false">
+      <datatype name="outputs" type="TABLE" refId="1">
+        <element name="ProductID">
+          <datatype name="NUMERIC" type="DECIMAL" maxDigits="32" maxFractionalDigits="0"/>
+        </element>
+        <element name="ProductName">
+          <datatype name="VARCHAR" type="STRING" maxLength="32768"/>
+        </element>
+        <element name="CategoryID">
+          <datatype name="NUMERIC" type="DECIMAL" maxDigits="32" maxFractionalDigits="0"/>
+        </element>
+        <element name="CategoryName">
+          <datatype name="VARCHAR" type="STRING" maxLength="32768"/>
+        </element>
+        <element name="ProductDescription">
+          <datatype name="VARCHAR" type="STRING" maxLength="32768"/>
+        </element>
+        <element name="SerialNumber">
+          <datatype name="VARCHAR" type="STRING" maxLength="32768"/>
+        </element>
+        <element name="UnitPrice">
+          <datatype name="DECIMAL" type="DECIMAL" maxDigits="32" maxFractionalDigits="6"/>
+        </element>
+        <element name="ReorderLevel">
+          <datatype name="NUMERIC" type="DECIMAL" maxDigits="32" maxFractionalDigits="0"/>
+        </element>
+        <element name="LeadTime">
+          <datatype name="VARCHAR" type="STRING" maxLength="32768"/>
+        </element>
+      </datatype>
+    </parameter>
+  </parameters>
+  <security>
+    <owner user="admin" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ EXECUTE"/>
+    <privilege group="DV12N_BIZINFO_Developers" domain="ad" privileges="READ WRITE EXECUTE GRANT"/>
+    <privilege user="dsouzjo3" domain="ad" privileges="READ WRITE"/>
+  </security>
+  <dependency target="/shared/examples/ds_XML/productCatalog.xml" type="TREE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <attribute name="creationDate" type="LONG">1398448186761</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1511501083263</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">adm_kasirra1</attribute>
+  <attribute name="transformModel" type="BYTE_ARRAY">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
+AABgHQAAAAA=</attribute>
+  <attribute name="transformSource" type="STRING">declare copy-namespaces no-preserve,inherit;
+declare namespace xquery =  &quot;http://compositesw.com/transform/xquery&quot;;
+declare namespace sql =  &quot;http://compositesw.com/transform/sql&quot;;
+declare namespace ext2 =  &quot;http://www.compositesw.com/extensions2&quot;;
+declare namespace xs =  &quot;http://www.w3.org/2001/XMLSchema&quot;;
+declare namespace custom =  &quot;http://compositesw.com/transform/custom&quot;;
+
+declare function local:productCatalog_xml( )
+{
+  (:invoke resource /shared/examples/ds_XML/&quot;&quot;productCatalog.xml&quot;&quot; :)
+  let $var4 := doc(&quot;/shared/examples/ds_XML/&quot;&quot;productCatalog.xml&quot;&quot;&quot;)/catalog
+  return
+    $var4
+};
+
+declare function local:cast2( $ProductName)
+{
+  fn:substring($ProductName, 0 ,32769)
+};
+
+declare function local:cast( $CategoryName)
+{
+  fn:substring($CategoryName, 0 ,32769)
+};
+
+declare function local:cast3( $ProductDescription)
+{
+  fn:substring($ProductDescription, 0 ,32769)
+};
+
+declare function local:cast4( $SerialNumber)
+{
+  fn:substring($SerialNumber, 0 ,32769)
+};
+
+declare function local:cast5( $LeadTime)
+{
+  fn:substring($LeadTime, 0 ,32769)
+};
+
+let $nodes := 
+(
+  let $var4:= local:productCatalog_xml()
+  return
+  (
+    for $var0 at $counter1 in $var4/category
+    return 
+      if (fn:not($counter1 &lt;= 2147483647 and fn:true()))
+      then ()
+      else 
+        for $var3 at $counter2 in $var0/products/product
+        return 
+          if (fn:not($counter2 &lt;= 2147483647 and fn:true()))
+          then ()
+          else 
+            element outputs
+            {
+              (
+                element ProductID
+                {
+                  if (fn:string-length(fn:string($var3/ProductID)) &gt; 0)
+                  then
+                    ()
+                  else
+                    attribute xsi:nil {&quot;true&quot;}
+                  ,
+                  $var3/ProductID/text()
+                }
+                ,
+                let $var8 := $var3/ProductName/text()
+                let $var7:= local:cast2(fn:data($var8))
+                return
+                element ProductName
+                {
+                  if (fn:string-length(fn:string($var7)) &gt; 0)
+                  then
+                    ()
+                  else
+                    attribute xsi:nil {&quot;true&quot;}
+                  ,
+                  $var7
+                }
+                ,
+                element CategoryID
+                {
+                  if (fn:string-length(fn:string($var0/CategoryID)) &gt; 0)
+                  then
+                    ()
+                  else
+                    attribute xsi:nil {&quot;true&quot;}
+                  ,
+                  $var0/CategoryID/text()
+                }
+                ,
+                let $var12 := $var0/CategoryName/text()
+                let $var11:= local:cast(fn:data($var12))
+                return
+                element CategoryName
+                {
+                  if (fn:string-length(fn:string($var11)) &gt; 0)
+                  then
+                    ()
+                  else
+                    attribute xsi:nil {&quot;true&quot;}
+                  ,
+                  $var11
+                }
+                ,
+                let $var15 := $var3/ProductDescription/text()
+                let $var14:= local:cast3(fn:data($var15))
+                return
+                element ProductDescription
+                {
+                  if (fn:string-length(fn:string($var14)) &gt; 0)
+                  then
+                    ()
+                  else
+                    attribute xsi:nil {&quot;true&quot;}
+                  ,
+                  $var14
+                }
+                ,
+                let $var18 := $var3/SerialNumber/text()
+                let $var17:= local:cast4(fn:data($var18))
+                return
+                element SerialNumber
+                {
+                  if (fn:string-length(fn:string($var17)) &gt; 0)
+                  then
+                    ()
+                  else
+                    attribute xsi:nil {&quot;true&quot;}
+                  ,
+                  $var17
+                }
+                ,
+                element UnitPrice
+                {
+                  if (fn:string-length(fn:string($var3/UnitPrice)) &gt; 0)
+                  then
+                    ()
+                  else
+                    attribute xsi:nil {&quot;true&quot;}
+                  ,
+                  $var3/UnitPrice/text()
+                }
+                ,
+                element ReorderLevel
+                {
+                  if (fn:string-length(fn:string($var3/ReorderLevel)) &gt; 0)
+                  then
+                    ()
+                  else
+                    attribute xsi:nil {&quot;true&quot;}
+                  ,
+                  $var3/ReorderLevel/text()
+                }
+                ,
+                let $var23 := $var3/LeadTime/text()
+                let $var22:= local:cast5(fn:data($var23))
+                return
+                element LeadTime
+                {
+                  if (fn:string-length(fn:string($var22)) &gt; 0)
+                  then
+                    ()
+                  else
+                    attribute xsi:nil {&quot;true&quot;}
+                  ,
+                  $var22
+                }
+              )
+            }
+    ,
+    let $counter := count($var4/category/products/product)
+    return
+      if ($counter &gt;= 0) then
+      ()
+      else 
+        for $k in (1 to ( 0 - $counter))
+        return
+          element outputs
+          {
+            (
+              element ProductID
+              {
+              }
+              ,
+              element ProductName
+              {
+              }
+              ,
+              element CategoryID
+              {
+              }
+              ,
+              element CategoryName
+              {
+              }
+              ,
+              element ProductDescription
+              {
+              }
+              ,
+              element SerialNumber
+              {
+              }
+              ,
+              element UnitPrice
+              {
+              }
+              ,
+              element ReorderLevel
+              {
+              }
+              ,
+              element LeadTime
+              {
+              }
+            )
+          }
+  )
+)
+return
+$nodes</attribute>
+</metadata>
